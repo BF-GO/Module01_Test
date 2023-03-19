@@ -9,9 +9,44 @@ h1 {
 main {
     background-color: rgb(143, 218, 193);
 }
+section {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(143, 185, 234);
+}
+p.this { 
+    font-size: 20px;
+    color: #ffffff;
+}
+ul {
+    color: #8A2387;
+}
 hr {
     height: 4px;
     background-color: rgb(200, 0, 255);
+}
+article {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(83, 126, 83);
+}
+span {
+    font-size: 20px;
+    background-color: rgb(253, 96, 159);
+    border-radius: 3px;
+    padding-block: 4px;
+    padding-inline: 8px;
+}
+ol {
+    color: red;
+}
+li a {
+    color: #cdcbcb;
+}
+footer {
+    margin: auto;
+    width: 50%;
 }
 p {
     color: blue;
