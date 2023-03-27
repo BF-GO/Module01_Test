@@ -22,14 +22,12 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 30px;
 }
 a {
     color: rebeccapurple;
     font-weight: 700;
     text-decoration: none;
-}
-ul > li {
-    margin-right: 30px;
 }
 ul > li:last-child {
     margin-right: 0; 
@@ -54,6 +52,10 @@ h1,h2,h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+.results {
+    display: flex;
+    gap: 10px;
+}
 section {
     background-color: lavender;
     padding: 5px 20px;
@@ -64,6 +66,8 @@ section {
     color: white;
     padding: 8px 15px;
     margin-left: 10px;
+    display: block;
+    text-align: center;
 }
 footer {
     font-size: 13px;
